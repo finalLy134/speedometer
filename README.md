@@ -12,7 +12,7 @@ In order to change from KPH to MPH or MPH to KPH simply go into the `config.json
 ```
 {
   "config": {
-    "measureUnits": "kph" / "mph"
+    "measureUnits": "kph"
   }
 }
 ```
