@@ -9,6 +9,13 @@ A simple FiveM standalone script that adds speedometer UI.
 
 ## Configuration
 In order to change from KPH to MPH or MPH to KPH simply go into the `config.json` and change the `measureUnits` to the type you wish.
+```
+{
+  "config": {
+    "measureUnits": "kph" / "mph"
+  }
+}
+```
 
 ## Preview
 ![image](https://github.com/finalLy134/speedometer/assets/60448180/11e527c7-f691-495d-8ed9-d4f0771fa4ed)
