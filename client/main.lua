@@ -1,20 +1,13 @@
-local ped = PlayerPedId()
-
-local inVehicle = false
 local vehicle = nil
+local inVehicle = false
 
 CreateThread(function()
     while true do
-        if (IsPedInAnyVehicle(ped, true)) then
+        vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
+        if vehicle ~= 0 and GetIsVehicleEngineRunning(vehicle) then
             inVehicle = true
-            vehicle = GetVehiclePedIsIn(ped, false)
-
-            if (not GetIsVehicleEngineRunning(vehicle)) then
-                inVehicle = false
-            end
         else
             inVehicle = false
-            vehicle = nil
         end
         SetSpeedometer()
         Wait(1000)
