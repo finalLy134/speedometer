@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+
+#speedometer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  font-size: 75px;
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  color: #e2e0e0;
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.value-units-container {
+  display: flex;
+  align-items: baseline;
+}
+
+#value {
+  transition: color 350ms ease;
+}
+
+#units {
+  font-size: 18px;
+  color: #bcbcbc;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
