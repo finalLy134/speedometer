@@ -18,7 +18,7 @@ CreateThread(function()
     while true do
         while (inVehicle) do
             UpdateSpeedometer()
-            Wait(100)
+            Wait(Config.UpdateInterval)
         end
         Wait(2500)
     end
