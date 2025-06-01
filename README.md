@@ -8,7 +8,7 @@ A simple FiveM standalone script that adds speedometer UI.
         <td><img src="https://dcbadge.limes.pink/api/shield/311897788206153730" alt="" /></td>
     </tr>
         <th>Discord Server</th>
-        <td><a target="_blank" href="https://discord.gg/87MZnFQv9y"><img src="https://dcbadge.limes.pink/api/server/87MZnFQv9y" alt="" /></a></td>
+        <td><a target="_blank" href="https://discord.gg/W8msjQaev4"><img src="https://dcbadge.limes.pink/api/server/W8msjQaev4" alt="" /></a></td>
     </tr>
 </table>
 
